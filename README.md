@@ -12,6 +12,6 @@ It requires Python headers and a C11-compatible compiler, such as gcc or clang. 
 
 # Code to reproduce the paper
 
-The Python codes to reproduce the paper can be found in the `figures' folder, where each file reproduces the result of one figure of the paper.
+The Python codes to reproduce the paper can be found in the 'figures' folder, where each file reproduces the result of one figure of the paper.
 
 There is no code for Fig. 3 because, in this case, we did not use any Python code. The visualization was done using the visualizer implemented by [Silva et al. 2016](https://www.sciencedirect.com/science/article/abs/pii/S1751157715301966?via%3Dihub).
