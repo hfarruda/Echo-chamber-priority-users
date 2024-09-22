@@ -15,3 +15,9 @@ It requires Python headers and a C11-compatible compiler, such as gcc or clang. 
 The Python codes to reproduce the paper can be found in the 'figures' folder, where each file reproduces the result of one figure of the paper.
 
 There is no code for Fig. 3 because, in this case, we did not use any Python code. The visualization was done using the visualizer implemented by [Silva et al. 2016](https://www.sciencedirect.com/science/article/abs/pii/S1751157715301966?via%3Dihub).
+
+## Citation Request
+
+If you publish a scientific paper that uses this material, please cite the following:
+
+Arruda HF, Oliveira KA, Moreno Y. Echo chamber formation sharpened by priority users. arXiv preprint [arXiv:2312.09358]([https://arxiv.org/pdf/2409.05692](https://arxiv.org/abs/2312.09358)). 2023.
