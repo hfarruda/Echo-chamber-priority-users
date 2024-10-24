@@ -20,4 +20,4 @@ There is no code for Fig. 3 because, in this case, we did not use any Python cod
 
 If you publish a scientific paper that uses this material, please cite the following:
 
-Arruda HF, Oliveira KA, Moreno Y. Echo chamber formation sharpened by priority users. arXiv preprint [arXiv:2312.09358](https://arxiv.org/abs/2312.09358). 2023.
+Arruda HF, Oliveira KA, Moreno Y. Echo chamber formation sharpened by priority users, iScience (2024). DOI: [10.1016/j.isci.2024.111098]([https://arxiv.org/abs/2312.09358](https://www.cell.com/iscience/fulltext/S2589-0042(24)02323-X)). 
