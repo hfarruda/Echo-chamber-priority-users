@@ -1,12 +1,10 @@
 # Echo Chamber Formation Sharpened by Priority Users
-The codes of this paper are implemented in the DOCES (Dynamical Opinion Clusters Exploration Suite) library, which is not yet available. So, we provide a previous version to reproduce our study in this GitHub repository.
-
-Once our library is available, we will replace the codes here.
+The codes of this paper are implemented in the DOCES (Dynamical Opinion Clusters Exploration Suite) library.
 
 # DOCES
 DOCES is an experimental Python library for simulating opinion dynamics in complex adaptive networks. It is implemented in C for performance reasons.
 
-# INSTALL
+# Install
 
 To install DOCES, simply use the following:
 
