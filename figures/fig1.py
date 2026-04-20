@@ -35,7 +35,7 @@ create_directory_if_not_exists(out_path)
 vertex_count = 10**4
 directed = True
 network_name = "er"
-steps = 100000000
+steps = 10#0000000
 k = 8
 delta = 0.1
 phi = 0.785
@@ -61,14 +61,15 @@ b = b * 2 - 1
 simulator = doces.Opinion_dynamics(vertex_count=vertex_count, edges=edges, directed=directed)
 
 out = simulator.simulate_dynamics(number_of_iterations = steps,
-                                  min_opinion = -1., 
-                                  max_opinion = 1.,
                                   phi = phi,
-                                  delta = delta,
+                                  mu = 1.,
                                   posting_filter = doces.COSINE, 
                                   receiving_filter = doces.COSINE,
+                                  b=b,
                                   rewire = True,
-                                  b=b)
+                                  min_opinion = -1., 
+                                  max_opinion = 1.,
+                                  delta = delta)
 
 edges_out = out['edges']
 b_out = out['b']

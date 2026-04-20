@@ -133,6 +133,7 @@ def nested_simulation(N, edge_list, r_filt, p_filt, percent_of_stubborn_users, v
                                 min_opinion = -1, 
                                 max_opinion = 1,
                                 phi = 1.473,
+                                mu = 1.,
                                 delta = 0.1,
                                 posting_filter = od.CUSTOM, 
                                 receiving_filter = od.CUSTOM,

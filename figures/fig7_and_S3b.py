@@ -119,6 +119,7 @@ def simulate_dynamics(vertex_count, edges, directed, positions, steps, b, stubbo
                                     min_opinion = -1., 
                                     max_opinion = 1.,
                                     phi = 0.785,
+                                    mu = 1.,
                                     delta = delta,
                                     posting_filter = posting_filter_type, 
                                     receiving_filter = receiving_filter_tyep,

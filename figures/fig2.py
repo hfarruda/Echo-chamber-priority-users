@@ -82,11 +82,13 @@ else:
                                         min_opinion = -1., 
                                         max_opinion = 1.,
                                         phi = phi,
+                                        mu = 1.,
                                         delta = delta,
                                         posting_filter = doces.COSINE, 
                                         receiving_filter = doces.COSINE,
                                         rewire = True,
-                                        b=b)
+                                        b=b,
+                                        verbose=False)
 
             edges_out = out['edges']
             b_out = out['b']
