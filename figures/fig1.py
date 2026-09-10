@@ -35,7 +35,7 @@ create_directory_if_not_exists(out_path)
 vertex_count = 10**4
 directed = True
 network_name = "er"
-steps = 10#0000000
+steps = 100000000
 k = 8
 delta = 0.1
 phi = 0.785
